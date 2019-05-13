@@ -244,6 +244,16 @@ public class MainActivity extends AppCompatActivity
                             new SavedNewsFragment()).commit();
                     break;
                 }
+                case R.id.nav_story: {
+                    //TODO 5: tạo code để kích hoạt activity bài đăng ở đây
+                    //Intent i = new Intent(MainActivity.this, StoryActivity.class);
+                    //startActivity(i);
+                }
+                case R.id.nav_auth: {
+                    //TODO 6: tạo code kich hoạt activity đăng nhập/xuất/đăng ký ở đây
+                    //Intent i = new Intent(MainActivity.this, AuthActivity.class);
+                    //startActivity(i);
+                }
             }
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

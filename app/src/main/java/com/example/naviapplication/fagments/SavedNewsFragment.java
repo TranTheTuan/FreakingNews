@@ -37,7 +37,7 @@ public class SavedNewsFragment extends Fragment {
 
         savedArticle = new ArrayList<Article>();
         //TODO 2: đây là mẫu, comment phần này lại
-        savedArticle.add(new Article("this is a very long title1 that it break line", "link1", "image1", "pub1"));
+        savedArticle.add(new Article("this is a very long title1 that breaks line", "link1", "image1", "pub1"));
         savedArticle.add(new Article("title2", "link1", "image2", "pub1"));
         savedArticle.add(new Article("title3", "link1", "image3", "pub1"));
         savedArticle.add(new Article("title4", "link1", "image4", "pub1"));
